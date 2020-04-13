@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Card from "./components/Card";
+import Joke from "./components/Joke";
 
 function App() {
   return (
@@ -13,20 +14,33 @@ function App() {
       {/*<NavBar />*/}
       {/*<MyInfo/>*/}
       {/*<Form/>*/}
-      <Card
-          content = {{imgurl : "https://googleplus-covers.com/covers/nature_balloon_ride.jpg",iconClass1 : "fa fa-arrow-circle-right cardreadme"
-            ,iconClass2 : "fa fa-envelope-open"}}
+      <Joke
+          content = {{question : "How are you?", punchLine : "That doesnt even matter!!" }}
       />
-      <Card
-          content = {{imgurl : "https://car-images.bauersecure.com/upload/29533/images/480x270/001bmax03.jpg",
-            iconClass1 : "fa fa-arrow-circle-right cardreadme",
-            iconClass2 : "fa fa-envelope-open"}}
+      <Joke
+            content = {{punchLine : "not yet!But soon" }}
       />
-      <Card
-          content = {{imgurl : "https://www.gannett-cdn.com/media/2017/10/14/USATODAY/USATODAY/636436189656790566-ABQ-hot-air-balloons2017-Trevor-Hughes1482.JPG?width=2560",
-            iconClass1 : "fa fa-arrow-circle-right cardreadme",
-            iconClass2 : "fa fa-envelope-open"}}
+      <Joke
+            content = {{question : "what about your aim!", punchLine : "That doesnt even matter!!now!" }}
       />
+      <Joke
+            content = {{question : "study!!", punchLine : "whats that!!" }}
+      />
+
+      {/*<Card*/}
+      {/*    content = {{imgurl : "https://googleplus-covers.com/covers/nature_balloon_ride.jpg",iconClass1 : "fa fa-arrow-circle-right cardreadme"*/}
+      {/*      ,iconClass2 : "fa fa-envelope-open"}}*/}
+      {/*/>*/}
+      {/*<Card*/}
+      {/*    content = {{imgurl : "https://car-images.bauersecure.com/upload/29533/images/480x270/001bmax03.jpg",*/}
+      {/*      iconClass1 : "fa fa-arrow-circle-right cardreadme",*/}
+      {/*      iconClass2 : "fa fa-envelope-open"}}*/}
+      {/*/>*/}
+      {/*<Card*/}
+      {/*    content = {{imgurl : "https://www.gannett-cdn.com/media/2017/10/14/USATODAY/USATODAY/636436189656790566-ABQ-hot-air-balloons2017-Trevor-Hughes1482.JPG?width=2560",*/}
+      {/*      iconClass1 : "fa fa-arrow-circle-right cardreadme",*/}
+      {/*      iconClass2 : "fa fa-envelope-open"}}*/}
+      {/*/>*/}
       {/*<Footer/>*/}
     </div>
   );

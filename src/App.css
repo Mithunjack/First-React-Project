@@ -122,3 +122,13 @@ body {
 .cardcontent p:nth-child(2) {
   font-size: 0.9em;
 }
+
+.Joke{
+  background: #282c34;
+  margin: 30px;
+  padding: 30px;
+}
+
+.Joke h1,h4{
+  color: white;
+}
